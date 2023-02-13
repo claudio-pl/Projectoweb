@@ -1,0 +1,67 @@
+!<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAY MUSIC</title>
+   <link rel="shortcut icon" href="../Imagens/icon do site/favicon.ico" type="image/x-icon">
+   
+   <link rel="import" href="my.php">
+<style>
+   
+
+    body{ background-image: url("../Imagens/frozen_river-amazing_natural_scenery_wallpaper_medium.jpg"); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
+
+    main{border-radius: 20px; width: 300px; height: 400px; margin: auto;}
+
+    input{display:block; width: 300px; border-radius: 30px; border-style: solid; height: 30px; font-size:16; padding: 10px;margin: auto; background-color: rgba(255, 255, 255, 0.10);outline: none; border-width:0.5px; border-color:#051838;color: #051838;}
+
+button{display:block; width: 100px; border-radius: 30px; border:none; height: 30px; font-size:16; padding: 10px;margin:auto; cursor: pointer;color:#051838;}
+    p{text-align: center;}
+    a{text-decoration: none; color: white;}
+    a:hover{text-decoration: underline;}
+header{padding-top: 100px;}
+    h1{font-size:35px; color: #96A2B8; margin-left: 30px;text-align: center; font-weight:bolder;font-weight: bolder;}
+</style>
+</head>
+
+
+   <body>
+
+    <header>
+        <h1>Cadastra-se</h1>
+    </header>
+
+    <main>
+<br>
+    <article>
+        <form action="rr.php" autocomplete="on" method="POST">
+
+        <input type="text" name="nome" id="in" required placeholder="Digite o seu Nome"> 
+        <br>
+        <input type="text" name="sobrenome" id="isn" required placeholder="Digite o seu Sobrnome">
+        <br>
+        <input type="email" name="email" id="ie" required autocomplete="email" placeholder="Digite o seu Email"> 
+        <br>
+       <input type="password" required autocomplete="current-password" name="password" id="ipa" placeholder="Digite a sua Senha ">
+        <br>
+        <input type="date" name="data" id="ida">
+        <br>
+        <button type="submit">Enviar</button>
+
+        <p>ou</p>
+        
+        <p><a href="login.html"> Acesse a sua Conta</a></p>
+
+
+        </form>
+    </article>
+    </main>
+
+    
+   </body>
+
+
+
+   </html>
